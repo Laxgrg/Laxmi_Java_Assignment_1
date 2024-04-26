@@ -34,12 +34,12 @@
      if(num3 < smallest)
        smallest = num3;
      //Finding largest number
-    int largest = num1; 
-    if(num2 > largest) {
-     largest = num2;
+     int largest = num1; 
+     if(num2 > largest) {
+      largest = num2;
     }
-    if(num3 > largest) {
-     largest = num3;
+     if(num3 > largest) {
+      largest = num3;
     }
     System.out.printf("Smallest number is: %d\n", smallest);
     System.out.printf("Largest number is: %d\n", largest);
